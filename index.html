@@ -66,6 +66,17 @@
   /* RULE divider */
   .rule{max-width:1120px;margin:0 auto;border-top:1px solid var(--line)}
 
+  /* COLOR BLOCKS (background only, minimal) */
+  .c-sand{background:#F0E6D4}
+  .c-sage{background:#E0E5D6}
+  .c-forest{background:#232A20}
+  .c-terra{background:#7E4329}
+  .c-forest .eyebrow,.c-terra .eyebrow{color:#E0B79F}
+  .c-forest .statement,.c-terra .statement,.c-forest h2,.c-terra h2{color:#F6F3EC}
+  .c-forest .lead,.c-terra .lead,.c-forest p,.c-terra p{color:#E7E2D5}
+  .c-forest .btn-primary,.c-terra .btn-primary{background:#F6F3EC;color:var(--ink);border-color:#F6F3EC}
+  .c-forest .btn-primary:hover,.c-terra .btn-primary:hover{background:#fff;border-color:#fff;color:var(--ink)}
+
   /* STATEMENT block (manifesto-like) */
   .say .lead{margin-top:30px}
 
@@ -191,7 +202,7 @@
 </header>
 
 <!-- HERO -->
-<section class="hero" id="top" style="padding-bottom:0">
+<section class="hero" id="top" style="padding-bottom:0;background:#F3EAD9">
   <div class="wrap">
     <img class="mark" src="images/haven-logo.png" alt="Haven" />
     <h1>Um lugar onde a vida desacelera sem perder presença.</h1>
@@ -216,7 +227,7 @@
 <div class="rule"></div>
 
 <!-- MODEL -->
-<section class="model" id="modelo">
+<section class="model c-sage" id="modelo">
   <div class="wrap">
     <div class="narrow center" style="padding:0">
       <span class="eyebrow kicker">O modelo</span>
@@ -271,7 +282,7 @@
 <div class="rule"></div>
 
 <!-- OWNSPITALITY -->
-<section>
+<section class="c-sand">
   <div class="narrow center">
     <span class="eyebrow kicker">Ownspitality</span>
     <h2 class="statement">O dono vira anfitrião. A casa vira renda.</h2>
@@ -280,7 +291,7 @@
 </section>
 
 <!-- SOCIAL CLUB -->
-<section class="club">
+<section class="club c-forest">
   <div class="narrow center">
     <span class="eyebrow kicker">Haven Social Club</span>
     <h2 class="statement">Uma comunidade que se forma pelo alinhamento, não pelo volume.</h2>
@@ -310,7 +321,7 @@
 <div class="rule"></div>
 
 <!-- PRESENÇA (manifesto, ex "por que agora") -->
-<section class="say" id="presenca">
+<section class="say c-terra" id="presenca">
   <div class="narrow center">
     <span class="eyebrow kicker">Por que agora</span>
     <h2 class="statement">O luxo de hoje é conseguir estar presente.</h2>
@@ -320,7 +331,7 @@
 </section>
 
 <!-- LOCATION -->
-<section class="loc">
+<section class="loc c-sage">
   <div class="narrow center" style="padding:0">
     <span class="eyebrow kicker">Localização</span>
     <h2 class="statement" style="font-size:clamp(24px,3vw,38px)">A distância ótima entre dois ritmos de vida.</h2>
@@ -354,7 +365,7 @@
 </section>
 
 <!-- PARTNERS -->
-<section class="partners">
+<section class="partners c-sand">
   <div class="wrap">
     <div class="center" style="margin-bottom:6px"><span class="eyebrow kicker">Parceiros</span></div>
     <div class="center"><h2 class="statement" style="font-size:clamp(22px,2.6vw,32px)">Construído com quem é referência.</h2></div>
